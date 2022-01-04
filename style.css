@@ -1,11 +1,17 @@
 body{
     font-family: 'Spline Sans', sans-serif;
 }
+.top-banner{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+
 .orange-color{
     color: aqua;
 }
-section{
+.fllexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -29,9 +35,37 @@ section{
 }
 
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 80%;
+}
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80;
+}
+.experience-area{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+#full-stak{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    
+}
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180dg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
