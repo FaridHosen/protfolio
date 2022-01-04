@@ -13,7 +13,7 @@ section{
 }
 .half-width img{
     width: 80%;
-    height: 50%;
+    height: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -22,5 +22,16 @@ section{
     font-weight: 700px;
     padding: 1px 40px;
     border-radius: 5px;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
 
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
 }
